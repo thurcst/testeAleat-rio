@@ -6,4 +6,6 @@ def house_model(y_new):
     model.compile(optimizer = "sgd" ,  loss = ' mean_squared_error')
     model.fit(xs,ys, epochs = 500)
     
+    print("ia eh brabor")
+    
     return model.predict (y_new)[0]
