@@ -7,5 +7,6 @@ def house_model(y_new):
     model.fit(xs,ys, epochs = 500)
     
     print("ia eh brabor")
+    print("Eu tenho que ter vergonha na cara e aprender Py kkkk")
     
     return model.predict (y_new)[0]
